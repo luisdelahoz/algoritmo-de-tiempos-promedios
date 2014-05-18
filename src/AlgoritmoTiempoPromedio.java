@@ -23,7 +23,7 @@ public class AlgoritmoTiempoPromedio {
         JFrame ventana = new JFrame("Algoritmo Tiempo Promedio");
         ventana.add(panel);
         ventana.pack();
-        ventana.setDefaultCloseOperation(ventana.EXIT_ON_CLOSE);
+        ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         ventana.setVisible(true);
     }
     

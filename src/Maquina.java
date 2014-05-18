@@ -12,40 +12,40 @@ import java.util.Calendar;
 public class Maquina {
     
     
-    private int NumeroMaquina;
-    private Calendar HoraActual;
-    private int VelocidadRelojMaquina;
+    private int numeroMaquina;
+    private Calendar horaActual;
+    private int velocidadRelojMaquina;
     
     private static int cantidadMaquinas = 0;
 
     public Maquina() {
         cantidadMaquinas++;
-        this.NumeroMaquina = cantidadMaquinas;
-        this.HoraActual = null;
-        this.VelocidadRelojMaquina = 0;
+        this.numeroMaquina = cantidadMaquinas;
+        this.horaActual = null;
+        this.velocidadRelojMaquina = 0;
     }
     
     public int getNumeroMaquina() {
-            return NumeroMaquina;
+            return numeroMaquina;
     }
 
     public void setNumeroMaquina(int NumeroMaquina) {
-        this.NumeroMaquina = NumeroMaquina;
+        this.numeroMaquina = NumeroMaquina;
     }
 
         public Calendar getHoraActual() {
-            return HoraActual;
+            return horaActual;
         }
 
         public void setHoraActual(Calendar HoraActual) {
-            this.HoraActual = HoraActual;
+            this.horaActual = HoraActual;
         }
 
         public int getVelocidadRelojMaquina() {
-            return VelocidadRelojMaquina;
+            return velocidadRelojMaquina;
         }
 
         public void setVelocidadRelojMaquina(int VelocidadRelojMaquina) {
-            this.VelocidadRelojMaquina = VelocidadRelojMaquina;
+            this.velocidadRelojMaquina = VelocidadRelojMaquina;
         }
 }
