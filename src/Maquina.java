@@ -33,7 +33,7 @@ public class Maquina {
         this.numeroMaquina = NumeroMaquina;
     }
 
-<<<<<<< HEAD
+
     public Calendar getHoraActual() {
         return horaActual;
     }
@@ -49,21 +49,4 @@ public class Maquina {
     public void setVelocidadRelojMaquina(int VelocidadRelojMaquina) {
         this.velocidadRelojMaquina = VelocidadRelojMaquina;
     }
-=======
-        public Calendar getHoraActual() {
-            return horaActual;
-        }
-
-        public void setHoraActual(Calendar HoraActual) {
-            this.horaActual = HoraActual;
-        }
-
-        public int getVelocidadRelojMaquina() {
-            return velocidadRelojMaquina;
-        }
-
-        public void setVelocidadRelojMaquina(int VelocidadRelojMaquina) {
-            this.velocidadRelojMaquina = VelocidadRelojMaquina;
-        }
->>>>>>> master
 }
