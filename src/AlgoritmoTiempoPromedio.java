@@ -31,6 +31,7 @@ public class AlgoritmoTiempoPromedio {
         ventana.add(panel);
         ventana.pack();
         ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        ventana.setResizable(false);
         ventana.setVisible(true);
     }
     
