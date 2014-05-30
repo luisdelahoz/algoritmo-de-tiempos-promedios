@@ -1,5 +1,3 @@
-
-import com.sun.java.swing.plaf.gtk.GTKLookAndFeel;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JFrame;
@@ -25,27 +23,18 @@ public class AlgoritmoTiempoPromedio {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
         Panel panel = new Panel();
+        
         JFrame ventana = new JFrame("Algoritmo de Tiempo Promedio");
-        establecerTema(2);
         ventana.add(panel);
         ventana.pack();
         ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        ventana.setResizable(false);
         ventana.setVisible(true);
-    }
-    
-    private static void establecerTema(int eleccion){
-        try {
-            if(eleccion == 1){
-                UIManager.setLookAndFeel(new GTKLookAndFeel());
-            } else {
-                UIManager.setLookAndFeel(new NimbusLookAndFeel());
-            }
-  
-        } catch (UnsupportedLookAndFeelException ex) {
-            Logger.getLogger(AlgoritmoTiempoPromedio.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        
+        ventana.setIconImage(new javax.swing.ImageIcon(ventana.getClass().getResource("/imagenes/reloj48.png")).getImage());
+
+
     }
     
 }

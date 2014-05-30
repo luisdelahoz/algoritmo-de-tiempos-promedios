@@ -11,9 +11,9 @@ import java.util.Calendar;
  */
 public class Maquina {
     
-    
     private int numeroMaquina;
     private Calendar horaActual;
+    private int horaActualMinutos;
     private int velocidadRelojMaquina;
     
     private static int cantidadMaquinas = 0;
@@ -22,6 +22,7 @@ public class Maquina {
         cantidadMaquinas++;
         this.numeroMaquina = cantidadMaquinas;
         this.horaActual = null;
+        this.horaActualMinutos = 0;
         this.velocidadRelojMaquina = 0;
     }
     
@@ -32,21 +33,37 @@ public class Maquina {
     public void setNumeroMaquina(int NumeroMaquina) {
         this.numeroMaquina = NumeroMaquina;
     }
-
-
+    
     public Calendar getHoraActual() {
         return horaActual;
     }
 
-    public void setHoraActual(Calendar HoraActual) {
-        this.horaActual = HoraActual;
+    public void setHoraActual(Calendar horaActual) {
+        this.horaActual = horaActual;
+        this.horaActualMinutos = horaActual.get(Calendar.HOUR) * 60 + horaActual.get(Calendar.MINUTE);
     }
 
     public int getVelocidadRelojMaquina() {
         return velocidadRelojMaquina;
     }
 
-    public void setVelocidadRelojMaquina(int VelocidadRelojMaquina) {
-        this.velocidadRelojMaquina = VelocidadRelojMaquina;
+    public void setVelocidadRelojMaquina(int velocidadRelojMaquina) {
+        this.velocidadRelojMaquina = velocidadRelojMaquina;
+    }
+
+    public int getHoraActualMinutos() {
+        return horaActualMinutos;
+    }
+
+    public void setHoraActualMinutos(int horaActualMinutos) {
+        this.horaActualMinutos = horaActualMinutos;
+    }
+
+    public static int getCantidadMaquinas() {
+        return cantidadMaquinas;
+    }
+
+    public static void setCantidadMaquinas(int cantidadMaquinas) {
+        Maquina.cantidadMaquinas = cantidadMaquinas;
     }
 }
