@@ -41,7 +41,6 @@
               <Group type="102" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< HEAD
                       <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
@@ -97,28 +96,9 @@
                                       <Component id="botonNuevo" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
-=======
-                      <Group type="102" alignment="1" attributes="0">
-                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="textoPropagacion" min="-2" pref="60" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
-                          <Component id="jButton1" pref="145" max="32767" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="botonNuevo" pref="171" max="32767" attributes="0"/>
-                              <Component id="jButton4" max="32767" attributes="0"/>
-                          </Group>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="botonGuardar" max="32767" attributes="0"/>
-                              <Component id="Cancelar" max="32767" attributes="0"/>
->>>>>>> origin/master
                           </Group>
                           <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
                       </Group>
-<<<<<<< HEAD
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
@@ -128,45 +108,6 @@
                           <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-=======
-                      <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
-                      <Component id="jScrollPane1" alignment="0" pref="0" max="32767" attributes="0"/>
-                      <Group type="102" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="textoIntervalo" min="-2" pref="60" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
-                                  <Component id="textoNumeroMaquina" min="-2" pref="97" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="textoVelocidad" min="-2" pref="97" max="-2" attributes="0"/>
-                                      <Component id="ComboHoras" min="-2" pref="97" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="ComboMinutos" min="-2" pref="97" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="etiquetaNuevaHora" min="-2" max="-2" attributes="0"/>
-                      <Component id="textoNuevaHora" min="-2" pref="79" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
->>>>>>> origin/master
               </Group>
           </Group>
         </DimensionLayout>
@@ -183,16 +124,12 @@
                       <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="ComboMinutos" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="ComboHoras" alignment="3" min="-2" max="-2" attributes="0"/>
-<<<<<<< HEAD
                       <Component id="botonNuevo" alignment="3" min="-2" max="-2" attributes="0"/>
-=======
->>>>>>> origin/master
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="1" attributes="0">
                       <Component id="textoVelocidad" min="-2" max="-2" attributes="0"/>
                       <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-<<<<<<< HEAD
                   </Group>
                   <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
@@ -220,39 +157,6 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="jScrollPane2" min="-2" pref="146" max="-2" attributes="0"/>
                   <EmptySpace pref="21" max="32767" attributes="0"/>
-=======
-                  </Group>
-                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="botonNuevo" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="botonGuardar" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="Cancelar" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jLabel2" alignment="3" max="32767" attributes="0"/>
-                      <Component id="textoIntervalo" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                      <Component id="etiquetaNuevaHora" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jScrollPane1" min="-2" pref="110" max="-2" attributes="0"/>
-                      <Component id="textoNuevaHora" min="-2" pref="69" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jLabel1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                      <Component id="textoPropagacion" alignment="3" max="32767" attributes="0"/>
-                      <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jScrollPane2" min="-2" pref="146" max="-2" attributes="0"/>
-                  <EmptySpace pref="45" max="32767" attributes="0"/>
->>>>>>> origin/master
               </Group>
           </Group>
         </DimensionLayout>
@@ -332,23 +236,16 @@
         </Component>
         <Component class="javax.swing.JTextField" name="textoPropagacion">
           <Events>
-<<<<<<< HEAD
-=======
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textoPropagacionActionPerformed"/>
->>>>>>> origin/master
             <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="textoPropagacionKeyTyped"/>
           </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="textoIntervalo">
-<<<<<<< HEAD
           <Properties>
             <Property name="editable" type="boolean" value="false"/>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ee" green="ee" red="ee" type="rgb"/>
             </Property>
           </Properties>
-=======
->>>>>>> origin/master
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
@@ -377,12 +274,9 @@
         </Component>
         <Component class="javax.swing.JButton" name="botonNuevo">
           <Properties>
-<<<<<<< HEAD
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/imagenes/nuevo.png"/>
             </Property>
-=======
->>>>>>> origin/master
             <Property name="text" type="java.lang.String" value="Nueva"/>
           </Properties>
           <Events>
@@ -421,7 +315,6 @@
         </Container>
         <Component class="javax.swing.JButton" name="botonGuardar">
           <Properties>
-<<<<<<< HEAD
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/imagenes/guardar.png"/>
             </Property>
@@ -454,20 +347,6 @@
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonCancelarActionPerformed"/>
           </Events>
-=======
-            <Property name="text" type="java.lang.String" value="Guardar"/>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JButton" name="jButton4">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Editar"/>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JButton" name="Cancelar">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Cancelar"/>
-          </Properties>
->>>>>>> origin/master
         </Component>
         <Component class="javax.swing.JLabel" name="etiquetaNuevaHora">
           <Properties>
@@ -475,7 +354,6 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="textoNuevaHora">
-<<<<<<< HEAD
           <Properties>
             <Property name="editable" type="boolean" value="false"/>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -483,8 +361,6 @@
             </Property>
             <Property name="enabled" type="boolean" value="false"/>
           </Properties>
-=======
->>>>>>> origin/master
         </Component>
       </SubComponents>
     </Container>
